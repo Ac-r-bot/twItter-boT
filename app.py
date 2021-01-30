@@ -6,8 +6,8 @@ auth.set_access_token('1348643525479469056-UNMtNafDRQvzLVSZETQdcz3oE59BxK','eYr5
 
 api = tweepy.API(auth)
 while True:
-  user = api.get_user('oktu')
+  user = api.get_user('ace27091')
   f = user.followers_count
   api.update_profile(name=f'ACE {f} Followers')
-  print(f'ACE{f} Followers')
+  print(f'ACE {f} Followers')
   time.sleep(10)
